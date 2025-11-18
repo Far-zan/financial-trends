@@ -1,5 +1,3 @@
-# financial-trends
-
 # Financial Crime Research Insights
 
 This project is a small end-to-end prototype showing how publicly available research data (OpenAlex) can be turned into something useful for analysing financial-crime topics. It’s meant to show how you can build a reusable analytics pipeline that scales to any area of interest by the end user, not just a one-off “dashboard for X”.
@@ -20,8 +18,6 @@ It demonstrates:
 - mapping research data into financial crime-aligned visualisations  
 - creating clear, analyst-friendly visualisations  
 
----
-
 ## Purpose
 
 The goal is to help intelligence analysts or policy staff quickly answer:  
@@ -39,8 +35,6 @@ To do this, the pipeline:
 - visualises everything in Power BI  
 
 This creates a flexible, repeatable framework for exploring any new topic.
-
----
 
 ## Why this approach
 
@@ -67,9 +61,6 @@ Using keywords keeps the classification explainable, simple to audit, and aligne
 
 ### Reusable structure
 Splitting the data into relational tables (fact + bridge + lookups) makes the dashboard more responsive (i.e. the slicing and dicing actually works) and means the workflow can be repeated cleanly for any new topic.
-
----
-
 ## Dashboard Overview
 
 The Power BI dashboard surfaces key analytical questions:
@@ -90,8 +81,6 @@ The layout is intentionally clean:
 
 The focus is clarity over complexity.
 
----
-
 ## Future improvements
 
 Some enhancements I would explore next:
@@ -104,5 +93,3 @@ Some enhancements I would explore next:
 - improving topic selection with a lightweight embedding index  
 
 But the current prototype is intentionally simple and readable.
-
----
